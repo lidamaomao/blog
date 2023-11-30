@@ -1,4 +1,4 @@
-const { themes } = require('prism-react-renderer');
+const { themes } = require('prism-react-renderer')
 
 const path = require('path')
 const beian = '豫ICP备2023033634号-1'
@@ -28,7 +28,8 @@ export default async function createConfigAsync() {
         },
         {
           name: 'keywords',
-          content: 'blog, javascript, typescript, node, react, vue, php, go, web',
+          content:
+            'blog, javascript, typescript, node, react, vue, php, go, web',
         },
         {
           name: 'keywords',
@@ -127,14 +128,14 @@ export default async function createConfigAsync() {
       //  apiKey: '50303937b0e4630bec4a20a14e3b7872',
       //  indexName: 'kuizuo',
       //},
-      //giscus: {
-      //  repo: 'kuizuo/blog',
-      //  repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-      //  category: 'General',
-      //  categoryId: 'DIC_kwDOF7NJDM4CPK95',
-      //  theme: 'light',
-      //  darkTheme: 'dark',
-      //},
+      giscus: {
+        repo: 'lidamaomao/blog',
+        repoId: 'R_kgDOKwgTkg',
+        category: 'General',
+        categoryId: 'DIC_kwDOKwgTks4CbYVR',
+        theme: 'light',
+        darkTheme: 'dark',
+      },
       socials: {
         github: 'https://github.com/lidamaomao',
         //twitter: 'https://twitter.com/kuizuo',
@@ -227,10 +228,7 @@ export default async function createConfigAsync() {
           },
         },
       ],
-      [
-        '@docusaurus/plugin-ideal-image',
-        { disableInDev: false },
-      ],
+      ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
       [
         '@docusaurus/plugin-pwa',
         {
