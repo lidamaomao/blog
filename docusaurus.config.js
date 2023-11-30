@@ -1,18 +1,18 @@
 const { themes } = require('prism-react-renderer');
 
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = '豫ICP备2023033634号-1'
 
 const announcementBarContent = ''
 
 export default async function createConfigAsync() {
   /** @type {import('@docusaurus/types').Config} */
   return {
-    title: '愧怍的小站',
-    url: 'https://kuizuo.cn',
+    title: '李大猫的小站',
+    url: 'https://lidamao.top',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'kuizuo',
+    organizationName: 'Lidamao',
     projectName: 'blog',
     tagline: '道阻且长，行则将至',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -24,11 +24,11 @@ export default async function createConfigAsync() {
       metadata: [
         {
           name: 'keywords',
-          content: '愧怍, kuizuo',
+          content: '李大猫, lidamao',
         },
         {
           name: 'keywords',
-          content: 'blog, javascript, typescript, node, react, vue, web',
+          content: 'blog, javascript, typescript, node, react, vue, php, go, web',
         },
         {
           name: 'keywords',
@@ -45,13 +45,13 @@ export default async function createConfigAsync() {
           tagName: 'meta',
           attributes: {
             name: 'description',
-            content: '愧怍的个人博客',
+            content: '李大猫的个人小站',
           },
         },
       ],
       navbar: {
         logo: {
-          alt: '愧怍',
+          alt: '李大猫',
           src: 'img/logo.webp',
           srcDark: 'img/logo.webp',
         },
@@ -101,13 +101,11 @@ export default async function createConfigAsync() {
             title: '社交媒体',
             items: [
               { label: '关于我', to: '/about' },
-              { label: 'GitHub', href: 'https://github.com/kuizuo' },
-              { label: 'Twitter', href: 'https://twitter.com/kuizuo' },
+              { label: 'GitHub', href: 'https://github.com/lidamaomao' },
               {
                 label: '掘金',
                 href: 'https://juejin.cn/user/1565318510545901',
               },
-              { label: 'Discord', href: 'https://discord.gg/M8cVcjDxkz' },
             ],
           },
           {
@@ -124,28 +122,28 @@ export default async function createConfigAsync() {
         ],
         copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
       },
-      algolia: {
-        appId: 'GV6YN1ODMO',
-        apiKey: '50303937b0e4630bec4a20a14e3b7872',
-        indexName: 'kuizuo',
-      },
-      giscus: {
-        repo: 'kuizuo/blog',
-        repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-        category: 'General',
-        categoryId: 'DIC_kwDOF7NJDM4CPK95',
-        theme: 'light',
-        darkTheme: 'dark',
-      },
+      //algolia: {
+      //  appId: 'GV6YN1ODMO',
+      //  apiKey: '50303937b0e4630bec4a20a14e3b7872',
+      //  indexName: 'kuizuo',
+      //},
+      //giscus: {
+      //  repo: 'kuizuo/blog',
+      //  repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      //  category: 'General',
+      //  categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      //  theme: 'light',
+      //  darkTheme: 'dark',
+      //},
       socials: {
-        github: 'https://github.com/kuizuo',
-        twitter: 'https://twitter.com/kuizuo',
+        github: 'https://github.com/lidamaomao',
+        //twitter: 'https://twitter.com/kuizuo',
         juejin: 'https://juejin.cn/user/1565318510545901',
         csdn: 'https://blog.csdn.net/kuizuo12',
-        qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-        zhihu: 'https://www.zhihu.com/people/kuizuo',
-        cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-        email: 'mailto:hi@kuizuo.cn',
+        qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=916929789&amp;site=qq',
+        //zhihu: 'https://www.zhihu.com/people/kuizuo',
+        //cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+        email: 'mailto:lidamao@lidamao.top',
       },
       prism: {
         theme: themes.oneLight,
