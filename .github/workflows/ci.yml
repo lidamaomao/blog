@@ -36,7 +36,7 @@ jobs:
       - name: SSH Deploy
         uses: easingthemes/ssh-deploy@v4.1.10
         env:
-          SSH_PRIVATE_KEY: ${{ Secrets.SSH_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ Secrets.PRIVATE_KEY }}
           ARGS: "-avzr --delete"
           SOURCE: "build"
           REMOTE_HOST: ${{ Secrets.REMOTE_HOST }}
