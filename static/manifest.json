@@ -1,6 +1,6 @@
 {
-  "name": "愧怍的小站",
-  "short_name": "愧怍的小站",
+  "name": "李大猫的小站",
+  "short_name": "李大猫的小站",
   "theme_color": "#12affa",
   "background_color": "#424242",
   "display": "standalone",
@@ -9,12 +9,12 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://kuizuo.cn/manifest.json"
+      "url": "https://lidamao.top/manifest.json"
     }
   ],
   "icons": [
     {
-      "src": "img/icons/icon-128.pnag",
+      "src": "img/icons/icon-128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
