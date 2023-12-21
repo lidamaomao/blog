@@ -29,7 +29,7 @@ export default async function createConfigAsync() {
         {
           name: 'keywords',
           content:
-            'blog, javascript, typescript, node, react, vue, php, go, web',
+            'blog, javascript, typescript, node, react, vue, php, go, web, python, 爬虫',
         },
         {
           name: 'keywords',
@@ -105,7 +105,7 @@ export default async function createConfigAsync() {
               { label: 'GitHub', href: 'https://github.com/lidamaomao' },
               {
                 label: '掘金',
-                href: 'https://juejin.cn/user/1565318510545901',
+                href: 'https://juejin.cn/user/289926798377112',
               },
             ],
           },
@@ -139,7 +139,7 @@ export default async function createConfigAsync() {
       socials: {
         github: 'https://github.com/lidamaomao',
         //twitter: 'https://twitter.com/kuizuo',
-        juejin: 'https://juejin.cn/user/1565318510545901',
+        juejin: 'https://juejin.cn/user/289926798377112',
         // csdn: 'https://blog.csdn.net/kuizuo12',
         qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=916929789&amp;site=qq',
         //zhihu: 'https://www.zhihu.com/people/kuizuo',
@@ -212,9 +212,9 @@ export default async function createConfigAsync() {
         {
           path: 'blog',
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-            `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+            `https://github.com/lidamaomao/blog/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
-          blogDescription: '代码人生：编织技术与生活的博客之旅',
+          blogDescription: '愿有一颗阔大的心，让它容下整个宇宙和人生',
           blogSidebarCount: 10,
           blogSidebarTitle: 'Blogs',
           postsPerPage: 10,

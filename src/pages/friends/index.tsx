@@ -10,7 +10,8 @@ import { motion } from 'framer-motion'
 
 const TITLE = '友链'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friend.ts'
+const ADD_FRIEND_URL =
+  'https://github.com/lidamaomao/blog/edit/main/data/friend.ts'
 
 function SiteInfo() {
   return (
@@ -19,8 +20,8 @@ function SiteInfo() {
         {`{
   // 本站信息
   title: '李大猫的小站',
-  description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
+  description: '温柔的人太在乎，太在乎就会孤独',
+  avatar: 'https://lidamao.top/img/logo.png'
 }`}
       </CodeBlock>
     </div>
